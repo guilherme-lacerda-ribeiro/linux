@@ -1,3 +1,2 @@
 # Linux
-- [if](ifs.hs)
-- 
+- [if](ifs.sh)
