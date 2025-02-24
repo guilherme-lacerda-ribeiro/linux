@@ -1,4 +1,9 @@
-# Linux
+# Shell Script
+- [Guia Foca](https://www.guiafoca.org/guiaonline/)
+- [Distro Watch](https://www.guiafoca.org/guiaonline/)
+- [Linux Command](https://linuxcommand.org/)
+
+## Tips
 `cd` - volta pra diretório home
 
 ```sh
@@ -14,3 +19,5 @@ abertura e fechamento são a palavra ao contrário: `if` pra abrir `fi` pra fech
 
 `comando > /dev/null` - saída do comando para um local, no caso lixeira\
 `comando &> /dev/null` - saída do comando e erros para um local, no caso a lixeira
+
+`comando >> arquivo` - joga para o arquivo sem sobrepor, incrementando
