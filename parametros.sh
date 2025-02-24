@@ -24,3 +24,10 @@ fi
 arquivo_saida="$1"
 arquivos=("${@:2}") # todos os outros parametros iniciando pelo segundo, um array
 
+arquivos=("$@")
+for arquivo in "${arquivos[@]}"; do
+  if [ ! -e "$arquivo" ]; then
+    echo "Arquivo não encontrado: $arquivo"
+    exit 1
+  fi
+done
